@@ -13,7 +13,7 @@ This project has been developed to provide a portfolio for potential future empl
 -- Created grid system on index.html, portfolio.html and contact.html
 -- Incorporated images when necessary 
 -- Utilisation of bootsrtap to create contact form 
--- Implementation of own information and edits to suit website
+-- Implementation of own information and edits in both html and css files to suit website
 -- Added responsive footer
 -- Using css to add styles and fix formatting issues
 
@@ -24,7 +24,7 @@ This project has been developed to provide a portfolio for potential future empl
 The above image represents the links attached to each html file. Including bootstrap, style.css and reset.css
 
 ![Image of navbar code](./Assets/Images/screenshot2.jpg)
-![Image of navbar](./Assets/Images/screenshot3.jpg)
+![Image of navbar](./Assets/Images/screnshot3.jpg)
 
 The above images are a representation of the code from bootstrap being edited and used to display a navbar in each html file. 
 
