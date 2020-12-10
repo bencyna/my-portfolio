@@ -26,7 +26,7 @@ The above image represents the links attached to each html file. Including boots
 ![Image of navbar code](./Assets/Images/screenshot2.jpg)
 ![Image of navbar](./Assets/Images/screenshot3.jpg)
 
-The above images are a representation of the code from bootstrap being edited and used to display a Navbar in each html file. 
+The above images are a representation of the code from bootstrap being edited and used to display a navbar in each html file. 
 
 ## Credits
 https://projects.verou.me/css3patterns/#carbon-fibre
