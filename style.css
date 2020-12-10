@@ -5,13 +5,21 @@
 h1,
 .header {
     color: teal;
+    /*added google fonts to h1 elemts */
+    font-family: 'Ranchers', cursive;
 }
 
 
 body {
-    background-color: #484848;
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
 }
-
+/* using col tags instead of row due to formatting issues */
 .col-md-9,
 .col-md-11,
 .col-md-10,
@@ -27,7 +35,9 @@ body {
     width: 100%;
     color: black;
     text-align: center; 
+    /* !important tag to override bootstrap css */
     border-top: 10px solid  teal !important; 
+    background-color: white;
 }
 
 .footer-large {
@@ -35,9 +45,26 @@ body {
      width: 100%;
      color: black;
      text-align: center; 
+     /* !important tag to override bootstrap css */
      border-top: 10px solid  teal !important; 
+     background-color: white;
 }
 
 .col-md-6 {
     margin-bottom: 0px;
+}
+
+.jumbotron {
+    padding-bottom: 25px;
+}
+
+@media screen and (max-height: 815px) {
+    .footer {
+        position: relative;
+        width: 100%;
+        color: black;
+        text-align: center; 
+        /* !important tag to override bootstrap css */
+        border-top: 10px solid  teal !important; 
+    }
 }
