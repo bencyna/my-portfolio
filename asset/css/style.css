@@ -28,7 +28,6 @@ body {
   --shadow-dark-colour: #2a2c31;
   font-family: "Abel", sans-serif;
 }
-/* using col tags instead of row due to formatting issues */
 
 img {
   border-radius: 10px;
@@ -65,7 +64,7 @@ img {
   background-color: #001f3f;
   padding: 1px;
   box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
-  inset -22px -22px 37px var(--shadow-dark-colour);
+    inset -22px -22px 37px var(--shadow-dark-colour);
   color: #85144b;
 }
 
@@ -150,13 +149,6 @@ img {
   font-size: 18px;
 }
 
-@media screen and (max-height: 815px) {
-  .footer {
-    position: relative;
-    width: 100%;
-    color: black;
-    text-align: center;
-    /* !important tag to override bootstrap css */
-    border-top: 10px solid #001f3f !important;
-  }
+.navbar-toggler-icon {
+  background-color: #85144b;
 }
