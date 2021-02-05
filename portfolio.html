@@ -1,78 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!--linking reset.css, bootsrap, style.css and google fonts to html docs-->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ben Cyna</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <br>
-  <br>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Portfolio</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="jumbotron">
-              <h2 class="display-4">Hi. I'm Ben! </h2>
-              <p class="lead">I am just a man</p>
-              <hr class="my-4">
-              <p>I am learning web-development and psychology at the moment with the intention of completing a mathematics degree as well, feel free to contact me for any reason :)</p>
-              <a class="btn btn-primary btn-lg" href="http://127.0.0.1:5500/uadel-adel-fsf-pt-11-2020-u-c/week_2/Homework/w2-homework-responsiveportfolio/contact.html" role="button">Contact</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid" class="img-responsive" id="watch" src="https://scontent.fadl3-1.fna.fbcdn.net/v/t1.15752-9/128798853_219379409633171_7219261159232362703_n.jpg?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=B6KBy0HwsmIAX9ozuHl&_nc_ht=scontent.fadl3-1.fna&oh=7f481fe052c5efd122a0c63960f237a9&oe=5FEEF021" alt="trees">
-          </div>
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid" id="top">
+        <a class="navbar-brand" href="#">Ben Cyna</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <img class="img-fluid" class="img-responsive" src="https://scontent.fadl3-1.fna.fbcdn.net/v/t1.15752-9/129531076_252856456426957_8216990757323597288_n.jpg?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=m3fKwhQ-T20AX-G__X6&_nc_ht=scontent.fadl3-1.fna&oh=c0b2e829e5c4dc1c9d21c0878225d963&oe=5FF18709" alt="Me rock climbing">
+    </nav>
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Portfolio</h1>
+        </div>
       </div>
-      <div class="col-md-6"> 
-        <img class="img-fluid" class="img-responsive" src="./Assets/Images/me.jpg" alt="Photo of me">
+      <div class="row content">
+        <div class="col-md-12">
+          <div class="row information">
+            <div class="col-md-3">
+              <address>Benjamin Cyna</address>
+            </div>
+            <div class="col-md-4">
+              <address>benjamincyna@gmail.com</address>
+            </div>
+            <div class="col-md-3">
+              <address>0430653816</address>
+            </div>
+            <div class="col-md-2">
+              <span title="Veiw Resume" class="columns colourDisplay is-mobile">
+                <button id="resume">
+                  <a href="asset/images/resume.pdf">
+                    <i class="far fa-file"></i>
+                  </a>
+                </button>
+              </span>
+            </div>
+            <div class="row">
+              <div class="col-md-6 linkedIn">
+                <a href="https://www.linkedin.com/in/bencyna567/">LinkedIn</a>
+              </div>
+              <div class="col-md-6 github">
+                <a href="github.com/bencyna/">Github</a>
+              </div>
+            </div>
+          </div>
+          <section class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-12 project">
+                  <h2>
+                    <a href="https://bencyna.github.io/Catch-Source-Style/"
+                      >Catch Source Style</a
+                    >
+                  </h2>
+                  <h6>
+                    <a href="https://github.com/bencyna/Catch-Source-Style"
+                      >Github Repository</a
+                    >
+                  </h6>
+                  <div>
+                    <img
+                      id="cssPhoto"
+                      src="./asset/Images/screenshotCSS.jpg"
+                      alt="Photo of project 1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div class="row assignments">
+                <div class="col-md-6 assignmentOne">
+                  <h3>
+                    <a href="https://bencyna.github.io/06-server-side-apis/"
+                      >Weather Dash</a
+                    >
+                  </h3>
+                  <h6>
+                    <a href="https://github.com/bencyna/06-server-side-apis"
+                      >Github Repository</a
+                    >
+                  </h6>
+                  <div>
+                    <img
+                      id="weatherPhoto"
+                      src="./asset/images/screenshotweather.jpg"
+                      alt="Photo of weather-dashboard "
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6 assignmentTwo">
+                  <h3>
+                    <a href="https://bencyna.github.io/w4-hwassingment-quiz/"
+                      >Psych Quiz</a
+                    >
+                  </h3>
+                  <h6>
+                    <a href="https://github.com/bencyna/w4-hwassingment-quiz"
+                      >Github Repository</a
+                    >
+                  </h6>
+                  <div>
+                    <img
+                      id="quizPhoto"
+                      src="asset/images/screenshotquiz.jpg"
+                      alt="Photo of psychology quiz"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <footer class="footer-large">
+    </div>  
+    <footer class="footer-large footer">
     <p>@Copyright</p>
-  </footer>
-</body>
+  </body>
 </html>
