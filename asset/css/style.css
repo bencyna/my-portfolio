@@ -27,6 +27,13 @@ body {
   --shadow-light-colour: #121415;
   --shadow-dark-colour: #2a2c31;
   font-family: "Abel", sans-serif;
+
+  height: 100%;
+}
+
+.end {
+  color: white;
+  height: 115px;
 }
 
 img {
@@ -39,7 +46,7 @@ img {
   border-radius: 10px;
   box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
     inset -22px -22px 37px var(--shadow-dark-colour);
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 
 .information {
@@ -57,8 +64,6 @@ img {
 }
 
 .footer {
-  position: relative;
-  bottom: 0px;
   width: 100%;
   text-align: center;
   background-color: #001f3f;
@@ -66,6 +71,14 @@ img {
   box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
     inset -22px -22px 37px var(--shadow-dark-colour);
   color: #85144b;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+  margin-top: auto;
 }
 
 .jumbotron {
@@ -83,13 +96,9 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
-.linkedIn {
-  position: relative;
-  left: 90%;
-}
+.linkedIn,
 .github {
-  position: relative;
-  left: 450%;
+  text-align: center;
 }
 
 .project {
@@ -106,18 +115,18 @@ img {
 }
 
 #cssPhoto {
-  width: 400px;
-  height: 300px;
+  width: 40%;
+  height: 30%;
 }
 
 #weatherPhoto {
-  height: 175px;
-  width: 450px;
-  position: relative;
+  height: 100%;
+  width: 105%;
 }
 
 #quizPhoto {
-  width: 400px;
+  width: 90%;
+  height: 90%;
 }
 
 .assignments {
@@ -151,4 +160,11 @@ img {
 
 .navbar-toggler-icon {
   background-color: #85144b;
+}
+
+@media only screen and (max-width: 1000px) {
+  .linkedIn,
+  .github {
+    text-align: left;
+  }
 }
