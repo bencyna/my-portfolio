@@ -1,4 +1,4 @@
-# w2-homework-responsiveportfolio
+# my-portfolio
 
 ## [Working Product](https://bencyna.github.io/my-portfolio/portfolio.html)
 
