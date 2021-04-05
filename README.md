@@ -1,67 +1,53 @@
-# my-portfolio
+# My Portfolio
 
-## [Working Product](https://bencyna.github.io/my-portfolio/portfolio.html)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
+## Description
 
-## Motivation
-This project has been developed to provide a portfolio for potential future employees to gain an insight of who I am as a person and what I could contribute to a company. Using bootsrap utilises the pre-exisitng css frameworks to allow for mobile responsive code. This project showcases my current learning capabilities and ability to learn new skills over time. 
+This project has been developed to provide a portfolio for potential future employees to gain an insight of who I am as a person and what I could contribute to a company. Using bootsrap utilises the pre-exisitng css frameworks to allow for mobile responsive code. This project showcases my current learning capabilities and ability to learn new skills.
+
+## Table Of Contents
+
+- [Installation](##Installation)
+- [Usage](##Usage)
+- [License](##License)
+- [Contributing](##Contributing)
+- [Tests](##Tests)
+- [Questions](##Questions)
 
 ## Installation
-Added links to:
- - reset.css for cross-browser compatability 
- - bootsrap for implementation of existing css framework
- - style.css for further personalised changes
- - googlefonts for new font use
- - viewport tag for mobile responisveness
 
- Also:
-- Created grid system on index.html, portfolio.html and contact.html
-- Incorporated images 
-- Utilisation of bootsrtap to create contact form 
-- Implementation of own information and edits in both html and css files to suit website
-- Added responsive footer
-- Using css to add styles 
-- clickable links to my resume, and linkedin and github profiles
+Added a reset.css for cross-browser compatiability, bootstrap for implementation of existing css, style.css for further styling changes. There was also use of google fonts and viewport tags for styling and mobile responsiveness. To put these together I also made the grid bootstrap system for each page, added images, contact form, and clickable links to my past projects and resume, linkedIn and github profiles
 
 ## Usage
+
 ![Image of background style code](./asset/images/screenshotcode.jpg)
 
-The above image shows the code used to create the background, the styling of this work is mainly to show my skills as a creator. The result of this code can be seen in the below image. 
-
+The above image shows the code used to create the background, the styling of this work is mainly to show my skills as a creator. The result of this code can be seen in the below image.
 
 ![Image of portfolio](./asset/images/screenshotportfolio.jpg)
 
 Here are where my work is shown, there are clickable links to my resume, linkedin and github and examples with clickable links to github and the page itself.
 
-
 ## Credits
+
 - [Boostrap](https://getbootstrap.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Fonts.Aweseome](https://fontawesome.com/)
 - [Magic Patterns](https://www.magicpattern.design/tools/css-backgrounds)
 
-## Licnece 
-MIT License
+  ## License
 
-Copyright (c) [2020] [Ben Cyna]
+  This project is covered under the BSD License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+  ## Contributing
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  [bencyna](https://github.com/bencyna/)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  ## Tests
 
-## Future Development 
-Allow submit button on contact to automatically contact my email address
+  go to https://bencyna.github.io/my-portfolio/portfolio.html
+
+  ## Questions
+
+  If you have any questions about this project, you can veiw my github account at github.com/bencyna/ or email me at benjamincyna@gmail.com
