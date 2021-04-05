@@ -38,7 +38,7 @@ Here are where my work is shown, there are clickable links to my resume, linkedi
 
   ## License
 
-  This project is covered under the BSD License
+  This project is covered under the MIT License
 
   ## Contributing
 
