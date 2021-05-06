@@ -1,0 +1,171 @@
+.navbar {
+  background-color: #001f3ff8;
+  box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
+    inset -22px -22px 37px var(--shadow-dark-colour);
+}
+
+h1,
+.header {
+  color: #85144b;
+  /*added google fonts to h1 elements */
+  font-family: "Ranchers", cursive;
+}
+html {
+  background-color: #000000;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #000000 18px
+    ),
+    repeating-linear-gradient(#11082255, #001f3f);
+}
+
+body {
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  --shadow-light-colour: #121415;
+  --shadow-dark-colour: #2a2c31;
+  font-family: "Abel", sans-serif;
+
+  height: 100%;
+}
+
+.end {
+  color: white;
+  height: 115px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.content {
+  background-color: black;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
+    inset -22px -22px 37px var(--shadow-dark-colour);
+  margin-bottom: 80px;
+}
+
+.information {
+  background-color: #001f3f;
+  color: white;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
+    inset -22px -22px 37px var(--shadow-dark-colour);
+}
+
+.contactHeader {
+  color: #85144b;
+  font-size: 20px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #001f3f;
+  padding: 1px;
+  box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
+    inset -22px -22px 37px var(--shadow-dark-colour);
+  color: #85144b;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+  margin-top: auto;
+}
+
+.jumbotron {
+  padding-bottom: 25px;
+}
+
+#resume {
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#resume:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkedIn,
+.github {
+  text-align: center;
+}
+
+.project {
+  margin: 10px 10px;
+  text-align: center;
+  position: relative;
+  float: left;
+  border-color: #001f3f !important;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.925);
+  box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
+    inset -22px -22px 37px var(--shadow-dark-colour);
+}
+
+#cssPhoto {
+  width: 40%;
+  height: 30%;
+}
+
+#weatherPhoto {
+  height: 100%;
+  width: 105%;
+}
+
+#quizPhoto {
+  width: 90%;
+  height: 90%;
+}
+
+.assignments {
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.925);
+  box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
+    inset -22px -22px 37px var(--shadow-dark-colour);
+}
+
+#submitContact {
+  background-color: #85144b;
+  border-color: #85144b;
+  transition-duration: 0.4s;
+}
+#submitContact:hover {
+  background-color: white;
+  color: #85144b;
+}
+
+#rockClimbing {
+  width: 100%;
+  height: 100%;
+}
+
+.bio {
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-toggler-icon {
+  background-color: #85144b;
+}
+
+@media only screen and (max-width: 1000px) {
+  .linkedIn,
+  .github {
+    text-align: left;
+  }
+}
