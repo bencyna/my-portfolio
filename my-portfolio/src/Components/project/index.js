@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
 import CSSImage from "./images/css.jpg";
+import codenoob from "./images/codenoob.jpg";
+import empDImg from "./images/empDir.jpg";
+import MVCBlog from "./images/MVCblog.jpg";
+import fitness from "./images/fitness.jpg";
 
 function Project() {
+  const [indexNum, setIndexNum] = useState(0);
   const [projects, setProject] = useState([
     {
       name: "Code-Noob",
@@ -9,7 +14,8 @@ function Project() {
       hrefGit: "https://github.com/bencyna/codeNoob",
       bio:
         "Code noob utilises MySQL to store user data along with handlebars and express. It is a forum for people wanting to get into coding but are unsure how to begin. You can ask simple questions, make replies and find links to recourses",
-      photoLocation: CSSImage,
+      photoLocation: codenoob,
+      styleId: "projectImages",
     },
     {
       name: "Catch Source Style",
@@ -18,22 +24,25 @@ function Project() {
       bio:
         "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
       photoLocation: CSSImage,
+      styleId: "projectImages",
     },
     {
       name: "Employee Directory",
-      hrefApp: "https://bencyna.github.io/employeeDirectory",
+      hrefApp: "https://bencyna.github.io/EmployeeDirectory",
       hrefGit: "https://github.com/bencyna/EmployeeDirectory",
       bio:
         "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
-      photoLocation: CSSImage,
+      photoLocation: empDImg,
+      styleId: "projectImages",
     },
     {
       name: "MVC tech blog",
       hrefApp: "https://immense-headland-77196.herokuapp.com/",
       hrefGit: "https://github.com/bencyna/MVC-techBlog",
       bio:
-        "This project uses sequelize and handlebars to create a webpage useful for posting commenting on tech like things. There are template handlebars used as well as partials to help include DRY code and login, logout and signups which are neccessary to perform certain functionalities",
-      photoLocation: CSSImage,
+        "This project uses sequelize and handlebars to create a webpage useful for posting commenting on tech related topics. This project uses bcrypt for authentication",
+      photoLocation: MVCBlog,
+      styleId: "projectImages",
     },
     {
       name: "Fitness Tracker",
@@ -41,11 +50,10 @@ function Project() {
       hrefGit: "https://github.com/bencyna/workoutTracker",
       bio:
         "This project allows users to add their exercises for a day and view their stats afterwards, it uses mongodb as the database with use of mongoose and express packages",
-      photoLocation: CSSImage,
+      photoLocation: fitness,
+      styleId: "fitness",
     },
   ]);
-
-  const [indexNum, setIndexNum] = useState(0);
 
   function handleClickFunction() {
     if (indexNum < projects.length - 1) setIndexNum(indexNum + 1);
@@ -69,14 +77,23 @@ function Project() {
             </h6>
             <div>
               <img
-                id="cssPhoto"
+                id={projects[indexNum].styleId}
                 src={projects[indexNum].photoLocation}
                 alt={projects[indexNum].name}
               />
             </div>
             <p className="bio">{projects[indexNum].bio}</p>
           </div>
-          <button onClick={handleClickFunction}>Next Project</button>
+          <div className="nextBtn">
+            <button
+              type="submit"
+              id="nextProject"
+              className="btn btn-primary"
+              onClick={handleClickFunction}
+            >
+              Next Project
+            </button>
+          </div>
         </div>
         );
       </div>

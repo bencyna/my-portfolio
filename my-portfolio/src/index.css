@@ -24,7 +24,7 @@ body {
   background: radial-gradient(black 15%, transparent 16%) 0 0,
     radial-gradient(black 15%, transparent 16%) 8px 8px,
     radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
-    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px !important;
   --shadow-light-colour: #121415;
   --shadow-dark-colour: #2a2c31;
   font-family: "Abel", sans-serif;
@@ -51,8 +51,8 @@ img {
 }
 
 .information {
-  background-color: #001f3f;
-  color: white;
+  background-color: #001f3f !important;
+  color: white !important;
   padding: 1%;
   border-radius: 10px;
   box-shadow: inset 22px 22px 37px var(--shadow-light-colour),
@@ -115,19 +115,13 @@ img {
     inset -22px -22px 37px var(--shadow-dark-colour);
 }
 
-#cssPhoto {
-  width: 40%;
-  height: 30%;
+#projectImages {
+  width: 600px;
+  height: 400px;
 }
-
-#weatherPhoto {
-  height: 100%;
-  width: 105%;
-}
-
-#quizPhoto {
-  width: 90%;
-  height: 90%;
+#fitness {
+  height: 400px;
+  width: 500px;
 }
 
 .assignments {
@@ -144,9 +138,27 @@ img {
   border-color: #85144b;
   transition-duration: 0.4s;
 }
+#nextProject:hover,
 #submitContact:hover {
   background-color: white;
   color: #85144b;
+}
+
+#nextProject {
+  width: 200%;
+  background-color: #85144b;
+  border-color: #85144b;
+  transition-duration: 1s;
+}
+
+.nextBtn {
+  /* width: 30%; */
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #rockClimbing {
@@ -167,5 +179,16 @@ img {
   .linkedIn,
   .github {
     text-align: left;
+  }
+  .bio {
+    padding-left: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  #projectImages,
+  #fitness {
+    width: 100%;
+    height: 100%;
   }
 }

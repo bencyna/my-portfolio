@@ -1,4 +1,5 @@
 import React from "react";
+import rockClimbing from "./rockclimbing.jpg";
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
                 <figure className="col-lg-5">
                   <img
                     id="rockClimbing"
-                    src="./asset/images/rockclimbing.jpg"
+                    src={rockClimbing}
                     alt="Me rockclimbing"
                   />
                 </figure>
