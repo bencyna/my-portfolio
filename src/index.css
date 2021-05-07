@@ -145,14 +145,14 @@ img {
 }
 
 #nextProject {
-  width: 200%;
+  width: 20%;
   background-color: #85144b;
   border-color: #85144b;
   transition-duration: 1s;
+  height: 100%;
 }
 
 .nextBtn {
-  /* width: 30%; */
   margin: 0;
   position: absolute;
   top: 100%;
@@ -182,6 +182,17 @@ img {
   }
   .bio {
     padding-left: 10% !important;
+  }
+  #nextProject {
+    width: 40%;
+  }
+  .nextBtn {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }
 
