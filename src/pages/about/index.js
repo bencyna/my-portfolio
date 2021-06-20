@@ -26,22 +26,20 @@ function About() {
                   <p>
                     As a full-stack web developer with a background in
                     psychology, I bring strong critical and logical thinking to
-                    the development of web-based projects. I have begun a
-                    bachelor's degree of mathematics showcasing skills in
-                    problem-solving, analytical thinking and quantitative
-                    reasoning. Past work on projects in groups, and individually
-                    such as the ‘CodeNoob’ app I helped develop showcase my
-                    skills as a full-stack web developer. Development of coding
-                    practices is highly motivating as I advance my tech skills
-                    and build upon a strong foundation in HTML, CSS and
-                    Javascript which I have recently earned a certificate in
-                    Full Stack Web-Development from Adelaide University. My
-                    enjoyment in creating and designing web pages helps to keep
-                    me engaged with my work. A strong team player and leader as
-                    seen in experience captaining club and school sports teams,
-                    I work well with people and can solve conflict effectively.
-                    Excellent academic, social and project results ensure I fit
-                    in well with any web-development team.
+                    the development of web-based projects. Past work on projects
+                    in groups, and individually such as the ‘CodeNoob’ app I
+                    helped develop showcase my skills as a full-stack web
+                    developer. Development of coding practices is highly
+                    motivating as I advance my tech skills and build upon a
+                    strong foundation in HTML, CSS and Javascript which I have
+                    recently earned a certificate in Full Stack Web-Development
+                    from Adelaide University. My enjoyment in creating and
+                    designing web pages helps to keep me engaged with my work. A
+                    strong team player and leader as seen in experience
+                    captaining club and school sports teams, I work well with
+                    people and can solve conflict effectively. Excellent
+                    academic, social and project results ensure I fit in well
+                    with any web-development team.
                   </p>
                 </div>
                 <div className="row">
