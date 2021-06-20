@@ -49,8 +49,7 @@ function About() {
                   <div className="col-lg-12 bio">
                     <p>
                       My interests mainly include sports such as footy, tennis,
-                      basketball and going bouldering/rock climbing. The future
-                      is now old man.
+                      basketball and going bouldering/rock climbing.
                     </p>
                   </div>
                 </div>
