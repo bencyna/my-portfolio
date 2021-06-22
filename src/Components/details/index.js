@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Details() {
   return (
@@ -22,9 +23,15 @@ function Details() {
       <div className="col-lg-2">
         <span title="Veiw Resume" className="columns colourDisplay is-mobile">
           <button id="resume">
-            <a href="asset/resume.pdf.pdf">
+            <Link
+              to={{
+                pathname:
+                  "/https://docs.google.com/document/d/1D8BpELWO2wDjZwn11Bb6IZDXPsnFj4eDMavnGDE7F3E/",
+              }}
+              target="_blank"
+            >
               <i className="far fa-file"></i>
-            </a>
+            </Link>
           </button>
         </span>
       </div>
