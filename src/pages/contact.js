@@ -18,26 +18,35 @@ function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .send(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, formInfo, apiKeys.USER_ID)
-      .then(
-        function (response) {
-          alert(
-            "You're email has gone through, I will get back to you shortly!"
-          );
-          setFormInfo({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        function (error) {
-          console.log(error);
-          alert(
-            "Sorry, there was some sort of error, please try again or email me at: benjamincyn@gmail.com"
-          );
-        }
-      );
+    if (
+      formInfo.name.length > 1 &&
+      formInfo.email.length > 1 &&
+      formInfo.message.length > 1
+    ) {
+      emailjs
+        .send(
+          apiKeys.SERVICE_ID,
+          apiKeys.TEMPLATE_ID,
+          formInfo,
+          apiKeys.USER_ID
+        )
+        .then(
+          function (response) {
+            alert(
+              "You're email has gone through, I will get back to you shortly!"
+            );
+            setFormInfo({ name: "", email: "", message: "" });
+          },
+          function (error) {
+            console.log(error);
+            alert(
+              "Sorry, there was some sort of error, please try again or email me at: benjamincyn@gmail.com"
+            );
+          }
+        );
+    } else {
+      alert("Input fields cannot be blank");
+    }
   };
 
   return (

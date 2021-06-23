@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import CSSImage from "./images/css.jpg";
 import codenoob from "./images/codenoob.jpg";
 import empDImg from "./images/empDir.jpg";
@@ -7,13 +7,12 @@ import fitness from "./images/fitness.jpg";
 
 function Project() {
   const [indexNum, setIndexNum] = useState(0);
-  const [projects, setProject] = useState([
+  const [projects] = useState([
     {
       name: "Code-Noob",
       hrefApp: "https://code-noob.herokuapp.com/",
       hrefGit: "https://github.com/bencyna/codeNoob",
-      bio:
-        "Code noob utilises MySQL to store user data along with handlebars and express. It is a forum for people wanting to get into coding but are unsure how to begin. You can ask simple questions, make replies and find links to recourses",
+      bio: "Code noob utilises MySQL to store user data along with handlebars and express. It is a forum for people wanting to get into coding but are unsure how to begin. You can ask simple questions, make replies and find links to recourses",
       photoLocation: codenoob,
       styleId: "projectImages",
     },
@@ -21,8 +20,7 @@ function Project() {
       name: "Catch Source Style",
       hrefApp: "https://bencyna.github.io/Catch-Source-Style/",
       hrefGit: "https://github.com/bencyna/Catch-Source-Style",
-      bio:
-        "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
+      bio: "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
       photoLocation: CSSImage,
       styleId: "projectImages",
     },
@@ -30,8 +28,7 @@ function Project() {
       name: "Employee Directory",
       hrefApp: "https://bencyna.github.io/EmployeeDirectory",
       hrefGit: "https://github.com/bencyna/EmployeeDirectory",
-      bio:
-        "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
+      bio: "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
       photoLocation: empDImg,
       styleId: "projectImages",
     },
@@ -39,8 +36,7 @@ function Project() {
       name: "MVC tech blog",
       hrefApp: "https://immense-headland-77196.herokuapp.com/",
       hrefGit: "https://github.com/bencyna/MVC-techBlog",
-      bio:
-        "This project uses sequelize and handlebars to create a webpage useful for posting commenting on tech related topics. This project uses bcrypt for authentication",
+      bio: "This project uses sequelize and handlebars to create a webpage useful for posting commenting on tech related topics. This project uses bcrypt for authentication",
       photoLocation: MVCBlog,
       styleId: "projectImages",
     },
@@ -48,8 +44,7 @@ function Project() {
       name: "Fitness Tracker",
       hrefApp: "https://radiant-hollows-58879.herokuapp.com/",
       hrefGit: "https://github.com/bencyna/workoutTracker",
-      bio:
-        "This project allows users to add their exercises for a day and view their stats afterwards, it uses mongodb as the database with use of mongoose and express packages",
+      bio: "This project allows users to add their exercises for a day and view their stats afterwards, it uses mongodb as the database with use of mongoose and express packages",
       photoLocation: fitness,
       styleId: "fitness",
     },
