@@ -32,6 +32,7 @@ function Contact() {
           });
         },
         function (error) {
+          console.log(error);
           alert(
             "Sorry, there was some sort of error, please try again or email me at: benjamincyn@gmail.com"
           );
