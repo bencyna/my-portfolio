@@ -95,7 +95,6 @@ function Contact() {
                 ></textarea>
               </div>
               <button
-                type="submit"
                 id="submitContact"
                 className="btn btn-primary"
                 onClick={onSubmit}
