@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.ccefb057.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.341905f9.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.341905f9.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.6ad5f9c6.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6ad5f9c6.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/my-portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d42370de.chunk.js": "/my-portfolio/static/js/2.d42370de.chunk.js",
+    "static/js/2.d42370de.chunk.js.map": "/my-portfolio/static/js/2.d42370de.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/my-portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ccefb057.chunk.css.map": "/my-portfolio/static/css/main.ccefb057.chunk.css.map",
+    "static/js/2.d42370de.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d42370de.chunk.js.LICENSE.txt",
+    "static/media/MVCblog.5e210fe5.jpg": "/my-portfolio/static/media/MVCblog.5e210fe5.jpg",
+    "static/media/codenoob.b2eac7b1.jpg": "/my-portfolio/static/media/codenoob.b2eac7b1.jpg",
+    "static/media/css.374f873b.jpg": "/my-portfolio/static/media/css.374f873b.jpg",
+    "static/media/empDir.ec324345.jpg": "/my-portfolio/static/media/empDir.ec324345.jpg",
+    "static/media/fitness.285106ab.jpg": "/my-portfolio/static/media/fitness.285106ab.jpg",
+    "static/media/rockclimbing.73ff0287.jpg": "/my-portfolio/static/media/rockclimbing.73ff0287.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ad5f9c6.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d42370de.chunk.js",
+    "static/css/main.ccefb057.chunk.css",
+    "static/js/main.341905f9.chunk.js"
+  ]
+}
