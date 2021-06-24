@@ -28,7 +28,7 @@ function Project() {
       name: "Employee Directory",
       hrefApp: "https://bencyna.github.io/EmployeeDirectory",
       hrefGit: "https://github.com/bencyna/EmployeeDirectory",
-      bio: "This app uses a colour and font API to upload photos which then retrieves the colours used and displays it on the page. Users can interact with their choice of fonts to see how it looks before applying it to their own code",
+      bio: "This application was made using react, it allows users to order their employees by name and search by name as well",
       photoLocation: empDImg,
       styleId: "projectImages",
     },

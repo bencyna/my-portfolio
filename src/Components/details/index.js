@@ -26,7 +26,7 @@ function Details() {
             <Link
               to={{
                 pathname:
-                  "/https://docs.google.com/document/d/1D8BpELWO2wDjZwn11Bb6IZDXPsnFj4eDMavnGDE7F3E/",
+                  "https://docs.google.com/document/d/1D8BpELWO2wDjZwn11Bb6IZDXPsnFj4eDMavnGDE7F3E/",
               }}
               target="_blank"
             >
