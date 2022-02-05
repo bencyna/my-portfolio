@@ -1,0 +1,8 @@
+.navbar-custom
+{
+    color: white;
+}
+.navbar-custom:hover {
+color: #85144b;
+  transition: all 0.2s ease-in-out;
+}

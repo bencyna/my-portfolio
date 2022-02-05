@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import apiKeys from "../apikeys";
+import "../index.css"
+
+
 function Contact() {
+  const [processing, setProcessing] = useState(false);
   const [formInfo, setFormInfo] = useState({
     name: "",
     email: "",
@@ -18,6 +22,7 @@ function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    setProcessing(true)
     if (
       formInfo.name.length > 1 &&
       formInfo.email.length > 1 &&
@@ -44,8 +49,10 @@ function Contact() {
             );
           }
         );
+        setProcessing(false)
     } else {
       alert("Input fields cannot be blank");
+      setProcessing(false)
     }
   };
 
@@ -95,11 +102,19 @@ function Contact() {
                 ></textarea>
               </div>
               <button
-                id="submitContact"
-                className="btn btn-primary"
+                disabled={processing}
+                type="button"
+                id="submit"
+                className="payBtn"
                 onClick={onSubmit}
               >
-                Submit
+                <span id="button-text">
+                  {processing ? (
+                    <div className="spinner" id="spinner"></div>
+                  ) : (
+                    "Submit"
+                  )}
+                </span>
               </button>
             </section>
           </form>

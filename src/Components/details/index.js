@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import resume from "../../assets/Resume.pdf";
 
 function Details() {
   return (
@@ -25,8 +26,8 @@ function Details() {
           <button id="resume">
             <Link
               to={{
-                pathname:
-                  "https://docs.google.com/document/d/1D8BpELWO2wDjZwn11Bb6IZDXPsnFj4eDMavnGDE7F3E/",
+                pathname: resume
+                  // "https://docs.google.com/document/d/1D8BpELWO2wDjZwn11Bb6IZDXPsnFj4eDMavnGDE7F3E/",
               }}
               target="_blank"
             >

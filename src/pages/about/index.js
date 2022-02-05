@@ -1,12 +1,10 @@
 import React from "react";
 import rockClimbing from "./rockclimbing.jpg";
+import "./style.css"
 
 function About() {
   return (
-    <section>
-      <br />
-      <br />
-      <br />
+    <section className="mt-10">
       <main className="container">
         <div className="row">
           <div className="col-lg-10">
