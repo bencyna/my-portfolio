@@ -3,11 +3,19 @@ import CSSImage from "./images/css.jpg";
 import codenoob from "./images/codenoob.jpg";
 import empDImg from "./images/empDir.jpg";
 import MVCBlog from "./images/MVCblog.jpg";
-import fitness from "./images/fitness.jpg";
+import Calendule from "./images/Calendule.jpg";
 
 function Project() {
   const [indexNum, setIndexNum] = useState(0);
   const [projects] = useState([
+    {
+      name: "Calendule",
+      hrefApp: "https://calendule.herokuapp.com/login",
+      hrefGit: "https://github.com/bencyna/calendule",
+      bio: "This project allows users to add their exercises for a day and view their stats afterwards, it uses mongodb as the database with use of mongoose and express packages",
+      photoLocation: Calendule,
+      styleId: "fitness",
+    },
     {
       name: "Code-Noob",
       hrefApp: "https://code-noob.herokuapp.com/",
@@ -39,14 +47,6 @@ function Project() {
       bio: "This project uses sequelize and handlebars to create a webpage useful for posting commenting on tech related topics. This project uses bcrypt for authentication",
       photoLocation: MVCBlog,
       styleId: "projectImages",
-    },
-    {
-      name: "Fitness Tracker",
-      hrefApp: "https://radiant-hollows-58879.herokuapp.com/",
-      hrefGit: "https://github.com/bencyna/workoutTracker",
-      bio: "This project allows users to add their exercises for a day and view their stats afterwards, it uses mongodb as the database with use of mongoose and express packages",
-      photoLocation: fitness,
-      styleId: "fitness",
     },
   ]);
 

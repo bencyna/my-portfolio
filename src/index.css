@@ -121,7 +121,7 @@ img {
 }
 #fitness {
   height: 400px;
-  width: 500px;
+  width: 650px;
 }
 
 .assignments {
@@ -276,6 +276,7 @@ img {
 #submitContact:hover {
   background-color: white;
   color: #85144b;
+  transition-duration: 0.2s;
 }
 
 @keyframes loading {
