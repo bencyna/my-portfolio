@@ -4,7 +4,7 @@
 
 ## Description
 
-This project has been developed to provide a portfolio for potential future employees to gain an insight of who I am as a person and what I could contribute to a company. Using bootsrap utilises the pre-exisitng css frameworks to allow for mobile responsive code. This project showcases my current learning capabilities and ability to learn new skills. Updates on my portfolio over my learning journey have included changing it into a react app showing up to date knowledge on new technologies.
+This project has been developed to provide a portfolio for potential future employees to gain an insight of who I am as a person and what I could contribute to a company. I have included my old portfolios made using bootsrap and vanilla javascript. I have added tailwind to this updated version to ensure a more authentic and cleaner layout. My portfolio showcases my current learning capabilities and ability to learn new skills. I have added python, c++ and PHP to the list of my capabilities.
 
 ## Table Of Contents
 
