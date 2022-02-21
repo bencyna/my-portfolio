@@ -46,7 +46,7 @@ export default function Education() {
             <div class="flex space-x-1 text-sm text-gray-500">
               <time datetime="2020-03-16"> Feb, 2019 </time>
               <span aria-hidden="true"> &middot; </span>
-              <span> November 2022 </span>
+              <span> Nov, 2022 </span>
             </div>
           </div>
         </div>

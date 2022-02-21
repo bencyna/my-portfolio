@@ -5,7 +5,7 @@ export default function AboutHero() {
   return (
     
   <main class="lg:relative border-b-2">
-  <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+  <div class="mx-auto max-w-7xl w-full pt-16 pb-8 text-center lg:py-48 lg:text-left">
     <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
       <h1 class="text-xl tracking-tight font-serif text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
         <span class="block text-green-300">Ben Cyna</span>
@@ -24,8 +24,8 @@ export default function AboutHero() {
       </div>
     </div>
   </div>
-  <div class="relative w-full h-56 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-    <img class="absolute inset-0 w-full h-full object-cover" src="https://avatars.githubusercontent.com/u/73979422?v=4" alt=""/>
+  <div class="justify-center relative h-56 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full w-full">
+    <img class="border-green-300 border-4 absolute justify-center m-auto inset-0 h-full object-cover rounded-full" src="https://avatars.githubusercontent.com/u/73979422?v=4" alt=""/>
   </div>
 </main>
   )
