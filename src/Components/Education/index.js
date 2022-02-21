@@ -7,7 +7,7 @@ export default function Education() {
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
     <div>
       <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Education</h2>
-      <p class="mt-3 text-xl text-gray-500 sm:mt-4">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+      <p class="mt-3 text-xl text-gray-500 sm:mt-4">A diverse background in psychology allows me to approach tech issues with a unique approach</p>
     </div>
     <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-12">
       <div>
@@ -17,24 +17,36 @@ export default function Education() {
           </Link>
         </div>
         <Link to="#" class="block mt-4">
-          <p class="text-xl font-semibold text-gray-900">University of Adelaide</p>
-          <p class="mt-3 text-base text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+          <p class="text-xl font-semibold text-gray-900">Bachelor of Psychological Sceince</p>
+          <p class="mt-3 text-base text-gray-500">
+              <ul>
+                  <li>
+                      GPA: 6.8/7
+                  </li>
+                  <li>
+                      50% of major in Neuroscience 
+                  </li>
+                  <li>
+                      50% of major in Computer Science 
+                  </li>
+              </ul>
+          </p>
         </Link>
         <div class="mt-6 flex items-center">
           <div class="flex-shrink-0">
             <Link to="#">
-              <span class="sr-only">Paul York</span>
-              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+              <span class="sr-only">Bachelor of psychological science</span>
+              <img class="h-10 w-10 rounded-full" src="https://www.adelaide.edu.au/brand/sites/default/files/styles/ua_landscape/public/media/images/2021-09/uoalogonavybg.png?h=c4dd2c7b&itok=836Wuw_K" alt="adelaide university"/>
             </Link>
           </div>
           <div class="ml-3">
             <p class="text-sm font-medium text-gray-900">
-              <Link to="#"> Paul York </Link>
+              <Link to="#"> University of Adelaide </Link>
             </p>
             <div class="flex space-x-1 text-sm text-gray-500">
-              <time datetime="2020-03-16"> Mar 16, 2020 </time>
+              <time datetime="2020-03-16"> Feb, 2019 </time>
               <span aria-hidden="true"> &middot; </span>
-              <span> 6 min read </span>
+              <span> November 2022 </span>
             </div>
           </div>
         </div>
@@ -47,58 +59,28 @@ export default function Education() {
           </Link>
         </div>
         <Link to="#" class="block mt-4">
-          <p class="text-xl font-semibold text-gray-900">Certificate in Full-Stack Web Development</p>
-          <p class="mt-3 text-base text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+          <p class="text-xl font-semibold text-gray-900">Full-Stack Web Development Certificate</p>
+          <p class="mt-3 text-base text-gray-500">A deep dive into coding through the lens of web development set me up to create applications from the backend server to the user experience</p>
         </Link>
         <div class="mt-6 flex items-center">
           <div class="flex-shrink-0">
             <Link to="#">
               <span class="sr-only">Dessie Ryan</span>
-              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
+              <img class="h-10 w-10 rounded-full" src="https://miro.medium.com/max/3150/1*ro9U4HRwF5xwEbDdryAQFw.png" alt=""/>
             </Link>
           </div>
           <div class="ml-3">
             <p class="text-sm font-medium text-gray-900">
-              <Link to="#"> Dessie Ryan </Link>
+              <Link to="#"> Trilogy partnered with University of Adelaide </Link>
             </p>
             <div class="flex space-x-1 text-sm text-gray-500">
-              <time datetime="2020-03-10"> Mar 10, 2020 </time>
+              <time datetime="2020-03-10"> Nov, 2020 </time>
               <span aria-hidden="true"> &middot; </span>
-              <span> 4 min read </span>
+              <span> July, 2021 </span>
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div>
-        <div>
-          <Link to="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800"> Case Study </span>
-          </Link>
-        </div>
-        <Link to="#" class="block mt-4">
-          <p class="text-xl font-semibold text-gray-900">Improve your customer experience</p>
-          <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure iusto fugiat commodi sequi.</p>
-        </Link>
-        <div class="mt-6 flex items-center">
-          <div class="flex-shrink-0">
-            <Link to="#">
-              <span class="sr-only">Easer Collins</span>
-              <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
-            </Link>
-          </div>
-          <div class="ml-3">
-            <p class="text-sm font-medium text-gray-900">
-              <Link to="#"> Easer Collins </Link>
-            </p>
-            <div class="flex space-x-1 text-sm text-gray-500">
-              <time datetime="2020-02-12"> Feb 12, 2020 </time>
-              <span aria-hidden="true"> &middot; </span>
-              <span> 11 min read </span>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   </div>
 </div>
