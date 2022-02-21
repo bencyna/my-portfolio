@@ -13,13 +13,22 @@ export default function AboutHero() {
       <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md: max-w-3xl">Welcome to my website, click around to get to know me :)</p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
-          <Link to="#education" className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10"> Education </Link>
+          <Link to="#" onClick={() => {
+          let hero = document.getElementById("education");
+          hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
+        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10"> Education </Link>
         </div>
         <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-          <Link to="#" className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Work Experience</Link>
+        <Link to="#" onClick={() => {
+          let hero = document.getElementById("work");
+          hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
+        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Work Experience</Link>
         </div>
         <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-          <Link to="#" className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Me</Link>
+        <Link to="#" onClick={() => {
+          let hero = document.getElementById("me");
+          hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
+        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Me</Link>
         </div>
       </div>
     </div>

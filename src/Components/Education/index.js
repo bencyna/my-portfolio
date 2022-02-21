@@ -3,11 +3,16 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Education() {
   return (
-<div class="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8" id="education">
+<div class="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8" id="education"> 
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
     <div>
-      <h2 class="text-green-300 tracking-tight font-serif sm:text-4xl">Education</h2>
-      <p class="mt-3 text-xl text-gray-500 sm:mt-4">A diverse background in psychology allows me to approach tech issues with a unique approach</p>
+      <h2 class="text-green-300 tracking-tight font-serif sm:text-4xl inline" >Education</h2>
+      <Link to="#" 
+        onClick={() => {
+          let hero = document.getElementById("the-top");
+          hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
+        }} className="text-gray-300 hover:text-gray-400 text-sm inline relative left-24">back to top ↑</Link>
+      <p class="mt-3 text-xl text-gray-500 block sm:mt-4">A diverse background in psychology allows me to approach tech issues with a unique approach</p>
     </div>
     <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-12">
       <div>
