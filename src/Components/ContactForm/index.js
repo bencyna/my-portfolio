@@ -59,7 +59,7 @@ const [processing, setProcessing] = useState(false);
             <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
                 <div>
                     <h3 className="text-lg leading-6 font-medium text-gray-900">Send me a message!</h3>
-                    <p className="mt-1 text-sm text-gray-500">I will reply as soon as I :)</p>
+                    <p className="mt-1 text-sm text-gray-500">I will reply as soon as I can :)</p>
                 </div>
 
                 <div className="grid-cols-6 gap-6">
@@ -114,10 +114,6 @@ const [processing, setProcessing] = useState(false);
                 </button>
             </div>
         </div>
-        hi - {process.env.REACT_APP_SERVICE_ID}
-          process.env.REACT_APP_TEMPLATE_ID,
-          formInfo,
-          process.env.REACT_APP_USER_ID
     </form>
   )
 }

@@ -8,7 +8,7 @@ export default function AboutHero() {
   <div className="mx-auto max-w-7xl w-full pt-16 pb-8 text-center lg:py-48 lg:text-left">
     <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
       <h1 className="text-xl tracking-tight font-serif text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-        <span className="block text-green-300">Ben Cyna</span>
+        <span className="inline text-green-300">Ben Cyna</span><span className="inline text-gray-500 text-sm ml-5">Software Engineer</span>
       </h1>
       <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md: max-w-3xl">Welcome to my website, click around to get to know me :)</p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
