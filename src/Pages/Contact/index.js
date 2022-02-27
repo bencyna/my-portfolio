@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Minimize2}  from 'react-feather';
+import ContactForm from "../../Components/ContactForm/index";
 
 export default function Contact({contact_display, setContactDisplay}) {
   function hideDisplay() {
@@ -15,6 +16,7 @@ export default function Contact({contact_display, setContactDisplay}) {
         </div>
         <div className="w-1/2 bg-gray-100 float">Contact</div>
       </div>
+      <ContactForm/>
     </div>
 
   )
