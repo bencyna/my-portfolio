@@ -7,8 +7,7 @@ export default function Education() {
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
     <div>
       <h2 class="text-green-300 tracking-tight font-serif sm:text-4xl inline" >Education</h2>
-      <Link to="#" 
-        onClick={() => {
+        <Link to="#" onClick={() => {
           let hero = document.getElementById("the-top");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
         }} className="text-gray-300 hover:text-gray-400 text-sm inline relative left-24">back to top ↑</Link>

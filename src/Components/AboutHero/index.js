@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function AboutHero() {
   return (
     
-  <main className="lg:relative border-b-2">
+  <main className="lg:relative border-b-2" id="the-top">
   <div className="mx-auto max-w-7xl w-full pt-16 pb-8 text-center lg:py-48 lg:text-left">
     <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
       <h1 className="text-xl tracking-tight font-serif text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
