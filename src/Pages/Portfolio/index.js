@@ -1,5 +1,5 @@
 import React from 'react'
-import Projects from "../../Components/Projects"
+import FeaturedProjects from "../../Components/Projects"
 import Details from "../../Components/Details"
 
 
@@ -10,7 +10,7 @@ export default function Portfolio() {
         <span className="inline text-green-300">Portfolio</span><span className="inline text-gray-500 text-sm ml-5">Software Engineer</span>
       </h1>
         <Details/>
-        <Projects/>
+        <FeaturedProjects/>
     </div>
 
   )
