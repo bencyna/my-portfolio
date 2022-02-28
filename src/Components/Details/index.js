@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import resume from "../../assets/Resume.pdf";
+import { GitHub, Linkedin } from 'react-feather';
 
 function Details() {
   return (
@@ -13,7 +14,7 @@ function Details() {
         </div>
         <div className="w-1/3 md:inline-block m-auto">
           <address>
-            <i className="fas fa-envelope-square"></i> benjamincyna@gmail.com
+            benjamincyna@gmail.com
           </address>
         </div>
         <div className="w-1/3 md:inline-block m-auto">
@@ -38,14 +39,14 @@ function Details() {
             </button>
           </span>
         </div>
-        <div className="md:w-1/2">
-          <a href="https://www.linkedin.com/in/bencyna567/">
-            <i className="fab fa-linkedin"></i> LinkedIn
+        <div className="md:w-1/2 hover:underline">
+          <a href="https://www.linkedin.com/in/bencyna567/" target="_blank" rel="noreferrer">
+          <Linkedin color="#0e76a8 " className="inline-block"/> LinkedIn
           </a>
         </div>
-        <div className="md:w-1/2">
-          <a href="https://github.com/bencyna/">
-            <i className="fab fa-github"></i> Github
+        <div className="md:w-1/2 hover:underline">
+          <a href="https://github.com/bencyna/" target="_blank" rel="noreferrer">
+           Github <GitHub className="inline-block"/>
           </a>
         </div>
       </div>  
