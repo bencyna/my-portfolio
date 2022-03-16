@@ -1,5 +1,7 @@
 import { GitHub } from 'react-feather';
-
+import breakout from "../../../assets/atariBreakout.png";
+import mvcImg from "../../../assets/mvc-tech.png";
+import writingApp from "../../../assets/writingApp.png";
 
 
 const projects = [
@@ -7,21 +9,20 @@ const projects = [
       name: 'Most dangerous writing app',
       role: 'Python',
       imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      writingApp,
       repoUrl: 'https://github.com/bencyna/Most-Dangerous-Writing-App',
     },
     {
       name: 'MVC tech blog',
       role: 'React',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      imageUrl: mvcImg,
       repoUrl: 'https://github.com/bencyna/MVC-techBlog',
     },
     {
       name: 'Atari breakout',
       role: 'Python',
       imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        breakout,
       repoUrl: 'https://github.com/bencyna/atari-breakout',
     },
     // More projects...
