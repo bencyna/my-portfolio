@@ -59,11 +59,14 @@ const [errors, setErrors] = useState({
     }
       emailjs
         .send(
-          process.env.REACT_APP_SERVICE_ID,
-          process.env.REACT_APP_TEMPLATE_ID,
+          // process.env.REACT_APP_SERVICE_ID,
+          // process.env.REACT_APP_TEMPLATE_ID,
+          // formInfo,
+          // process.env.REACT_APP_USER_ID
+          "service_i6nctqq",//apiKeys.SERVICE_ID,
+          "template_squm613",//apiKeys.TEMPLATE_ID,
           formInfo,
-          process.env.REACT_APP_USER_ID
-         
+          "user_udBUM7rHhSFcq41CurXNX"//apiKeys.USER_ID
         )
         .then(
           function (response) {

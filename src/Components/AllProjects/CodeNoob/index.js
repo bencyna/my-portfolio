@@ -15,7 +15,11 @@
   ```
 */
 import React, { Fragment } from 'react'
+import { Link } from "react-router-dom"
 import { Tab } from '@headlessui/react'
+import codenoobHome from "../../../assets/codenoobHome.png"
+import codenoobPost from "../../../assets/codenoobPost.png"
+import codenoobRecourses from "../../../assets/codenoobRecourses.png"
 
 const tabs = [
   {
@@ -25,7 +29,7 @@ const tabs = [
         name: 'CodeNoob',
         description:
           'CodeNoob is a CRUD application that allows people to be intorduced into software. It has a focus on novices as starting out in tech can be quite overwhelming',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg',
+        imageSrc: codenoobHome,
         imageAlt: 'Maple organizer base with slots, supporting white polycarbonate trays of various sizes.',
       },
     ],
@@ -37,7 +41,7 @@ const tabs = [
         name: 'Creative Process',
         description:
           'This was the mid term group project in the Adelaide Univeristy Coding bootcamp. Our group decided we wanted to make something that is relevant to us and that we would find useful. As we were all developers starting out, we thought it would be useful for a place where people could ask \"dumb\" questions easily.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg',
+        imageSrc: codenoobPost,
         imageAlt:
           'Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.',
       },
@@ -48,9 +52,10 @@ const tabs = [
     features: [
       {
         name: 'Group Members',
-        description: `<a href="https://www.linkedin.com/in/bellasantiago?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbNcA0BP4P-wrnc4aXbN2Xt4zJYUdM3cE4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D"> Bella Santiago</a> and 
-        <a href="https://www.linkedin.com/in/alex-stewart-3a2937a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABcY4GoBfjqK6ivnOGHXfdnNn1unZ73IirU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D">Alex Stewart</a>`,
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg',
+        description: `<a to="https://www.linkedin.com/in/bellasantiago?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbNcA0BP4P-wrnc4aXbN2Xt4zJYUdM3cE4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D"> Bella Santiago</a> 
+        <a to=https://github.com/sthasub">Subhash Lakhey</a> and 
+        <a to="https://www.linkedin.com/in/alex-stewart-3a2937a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABcY4GoBfjqK6ivnOGHXfdnNn1unZ73IirU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D">Alex Stewart</a>`,
+        imageSrc: codenoobRecourses,
         imageAlt: 'Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils.',
       },
     ],
@@ -105,8 +110,9 @@ export default function CodeNoob() {
                     <div key={feature.name} className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8">
                       <div className="mt-6 lg:mt-0 lg:col-span-5">
                         <h3 className="text-lg font-medium text-gray-900">{feature.name}</h3>
-                        {feature.name == "Group Members" ? (
-                        <p className="mt-2 text-sm text-gray-500"><a className="cursor-pointer hover:text-gray-300" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bellasantiago?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbNcA0BP4P-wrnc4aXbN2Xt4zJYUdM3cE4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D"> Bella Santiago</a> and 
+                        {feature.name === "Group Members" ? (
+                        <p className="mt-2 text-sm text-gray-500"><a className="cursor-pointer hover:text-gray-300" target="_blank" rel="noreferrer" href="https://www.aedin.com/in/bellasantiago?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbNcA0BP4P-wrnc4aXbN2Xt4zJYUdM3cE4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D">Bella Santiago</a> 
+                          ,<a target="_blank" rel="noreferrer" href="https://github.com/sthasub"> Subhash Lakhey </a> and 
                         <a className="cursor-pointer hover:text-gray-300" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alex-stewart-3a2937a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABcY4GoBfjqK6ivnOGHXfdnNn1unZ73IirU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D"> Alex Stewart</a>
                    </p>
                         ) : (

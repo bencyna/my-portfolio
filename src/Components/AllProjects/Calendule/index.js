@@ -1,18 +1,20 @@
 import React from "react";
+import calenduleLogin from "../../../assets/calendule-login.png"
+import calenduleHome from "../../../assets/calenduleHome.png"
 
 const features1 = [
   {
     name: 'Add to calendar',
     description:
       'Easily add events to your own scheudle, calendule also lets you find others to request a meeting for, once approved, the event will appear on both calendars',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-01.jpg',
+    imageSrc: calenduleLogin,
     imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
   },
   {
     name: 'Technologies',
     description:
       'This application MySql, Express, React and Node.js to build this full stack application. Technologies such as sequelize, bcrypt, axios and materials-ui have so far been utilised to improve the experience with new technologies being introduced in time',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg',
+    imageSrc: calenduleHome,
     imageAlt: 'Detail of zipper pull with tan leather and silver rivet.',
   },
 ]
