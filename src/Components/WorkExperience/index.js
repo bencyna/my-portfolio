@@ -10,11 +10,11 @@ export default function WorkExperience() {
     <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
       <div className="space-y-5 sm:space-y-4">
         <h2 className="text-green-300 tracking-tight font-serif sm:text-4xl inline">Work Experience</h2>
-        <Link to="#" 
+        <div 
         onClick={() => {
           let hero = document.getElementById("the-top");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
-        }} className="text-gray-300 hover:text-gray-400 text-sm inline relative left-14">back to top ↑</Link>
+        }} className="cursor-pointer text-gray-300 hover:text-gray-400 text-sm inline relative left-14">back to top ↑</div>
         <p className="text-xl text-gray-500 block">With over a year of software development experience and 6 months of learning how a business starts from the ground up, I
             have developed my understanding of business and development. A further year of tutoring guided me to refine my communication and leadership abilities
         </p>

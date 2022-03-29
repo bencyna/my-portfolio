@@ -6,11 +6,11 @@ export default function Me() {
     <div className="bg-white shadow overflow-hidden sm:rounded-lg w-3/4 m-auto mb-12" id='me'>
   <div className="px-4 py-5 sm:px-6">
     <h3 className="text-green-300 tracking-tight font-serif sm:text-4xl inline">About me</h3>
-    <Link to="#" 
+    <div 
         onClick={() => {
           let hero = document.getElementById("the-top");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
-        }} className="text-gray-300 hover:text-gray-400 text-sm inline relative left-24">back to top ↑</Link>
+        }} className="cursor-pointer text-gray-300 hover:text-gray-400 text-sm inline relative left-24">back to top ↑</div>
   </div>
   <div className="sm:col-span-2 m-4 px-10">
         <dt className="text-sm font-medium text-gray-500">About</dt>

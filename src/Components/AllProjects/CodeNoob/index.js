@@ -112,7 +112,7 @@ export default function CodeNoob() {
                         <h3 className="text-lg font-medium text-gray-900">{feature.name}</h3>
                         {feature.name === "Group Members" ? (
                         <p className="mt-2 text-sm text-gray-500"><a className="cursor-pointer hover:text-gray-300" target="_blank" rel="noreferrer" href="https://www.aedin.com/in/bellasantiago?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAbNcA0BP4P-wrnc4aXbN2Xt4zJYUdM3cE4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D">Bella Santiago</a> 
-                          ,<a target="_blank" rel="noreferrer" href="https://github.com/sthasub"> Subhash Lakhey </a> and 
+                          ,<a className="cursor-pointer hover:text-gray-300" target="_blank" rel="noreferrer" href="https://github.com/sthasub"> Subhash Lakhey </a> and 
                         <a className="cursor-pointer hover:text-gray-300" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alex-stewart-3a2937a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABcY4GoBfjqK6ivnOGHXfdnNn1unZ73IirU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people_load_more%3BXM8A3KTbS8uDjlDflAVbLg%3D%3D"> Alex Stewart</a>
                    </p>
                         ) : (
