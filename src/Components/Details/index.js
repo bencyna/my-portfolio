@@ -15,7 +15,7 @@ function Details() {
             Benjamin Cyna
           </address>
         </div>
-        <div className="w-1/3 md:inline-block m-auto">
+        <div className="w-5/6 md:inline-block m-auto py-2">
           <address>
             benjamincyna@gmail.com
           </address>
@@ -42,12 +42,12 @@ function Details() {
             </button>
           </span>
         </div>
-        <div className="md:w-1/2 hover:underline">
+        <div className="md:w-1/2 hover:underline py-1">
           <a href="https://www.linkedin.com/in/bencyna567/" target="_blank" rel="noreferrer" className="hover:bg-gray-300 p-2 rounded">
           <Linkedin color="#0e76a8 " className="inline-block"/> 
           </a>
         </div>
-        <div className="md:w-1/2 hover:underline">
+        <div className="md:w-1/2 hover:underline py-1">
           <a href="https://github.com/bencyna/" target="_blank" rel="noreferrer" className="hover:bg-gray-300 p-2 rounded">
            <GitHub className="inline-block  "/>
           </a>
