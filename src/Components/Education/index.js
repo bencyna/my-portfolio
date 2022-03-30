@@ -46,7 +46,7 @@ export default function Education() {
                 </div>
                 <div class="">
                   <p class="text-sm font-medium">
-                    <Link  to="https://www.adelaide.edu.au/" arget="_blank" rel="noreferrer" > University of Adelaide </Link>
+                    <a  href="https://www.adelaide.edu.au/" target="_blank" rel="noreferrer" > University of Adelaide </a>
                   </p>
                   <div class="space-x-1 text-sm text-gray-100">
                     <time datetime="2020-03-16"> Feb, 2019 </time>
@@ -76,7 +76,7 @@ export default function Education() {
                 </div>
                 <div class="ml-3">
                   <p class="text-sm font-medium">
-                    <Link to="#."> Trilogy partnered with University of Adelaide </Link>
+                    <a href="https://bootcamps.adelaide.edu.au/coding/landing/?s=Google-Unbranded&pkw=%2Bcoding&pcrid=470126360520&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUniversity-of-Adelaide%7CSEM%7CCODING%7C-%7COFL%7CTIER-1%7CALL%7CNBD-G%7CBMM%7CCore%7CGeneral&utm_term=%2Bcoding&s=google&k=%2Bcoding&utm_adgroupid=110090306093&utm_locationphysicalms=9070871&utm_matchtype=b&utm_network=g&utm_device=c&utm_content=470126360520&utm_placement=&gclid=Cj0KCQjw3IqSBhCoARIsAMBkTb0rW-zIIbN0FIsxEl45jAOFGyVKrPflM0es28T1hKKbpwxEQNwLj9MaAm45EALw_wcB&gclsrc=aw.ds" target="_blank" rel="noreferrer"> Trilogy partnered with University of Adelaide </a>
                   </p>
                   <div class="space-x-1 text-sm text-gray-100">
                     <time datetime="2020-03-10"> Nov, 2020 </time>

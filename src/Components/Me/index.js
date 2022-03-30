@@ -9,7 +9,7 @@ export default function Me() {
         onClick={() => {
           let hero = document.getElementById("the-top");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
-        }} className="cursor-pointer text-gray-100 hover:text-gray-300 text-sm inline relative left-24">back to top ↑</div>
+        }} className="cursor-pointer text-gray-100 hover:text-gray-300 text-sm md:inline relative md:left-24">back to top ↑</div>
   </div>
   <div className="sm:col-span-2 m-4 px-10">
         <dt className="text-sm font-medium text-green-200">About</dt>
