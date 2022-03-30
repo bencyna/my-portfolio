@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ccefb057.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.d9409665.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.d9409665.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.6ad5f9c6.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6ad5f9c6.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/my-portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.d42370de.chunk.js": "/my-portfolio/static/js/2.d42370de.chunk.js",
-    "static/js/2.d42370de.chunk.js.map": "/my-portfolio/static/js/2.d42370de.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.686b1cd0.css",
+    "main.js": "/my-portfolio/static/js/main.f0124582.js",
+    "static/js/787.e1cd1251.chunk.js": "/my-portfolio/static/js/787.e1cd1251.chunk.js",
+    "static/media/gemini.png": "/my-portfolio/static/media/gemini.21d237d678034b1d46bc.png",
+    "static/media/codenoobHome.png": "/my-portfolio/static/media/codenoobHome.dbdb21a5496c66d2cecd.png",
+    "static/media/calendule-login.png": "/my-portfolio/static/media/calendule-login.e3d03400f212e2512449.png",
+    "static/media/codenoobRecourses.png": "/my-portfolio/static/media/codenoobRecourses.c54b990a9ad40499d108.png",
+    "static/media/mvc-tech.png": "/my-portfolio/static/media/mvc-tech.2ab65e991c41e1e4b9cb.png",
+    "static/media/calenduleHome.png": "/my-portfolio/static/media/calenduleHome.b0483828c904ad74bfe1.png",
+    "static/media/atariBreakout.png": "/my-portfolio/static/media/atariBreakout.83a724f0933d7c351558.png",
+    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.6f9b89013b779a33e0c0.pdf",
+    "static/media/codenoobPost.png": "/my-portfolio/static/media/codenoobPost.9cdefe1bc3d21e4844cb.png",
+    "static/media/b.png": "/my-portfolio/static/media/b.d77364d77572e7789d0e.png",
+    "static/media/writingApp.png": "/my-portfolio/static/media/writingApp.37c3fa011c01c921c0e2.png",
     "index.html": "/my-portfolio/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/my-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ccefb057.chunk.css.map": "/my-portfolio/static/css/main.ccefb057.chunk.css.map",
-    "static/js/2.d42370de.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.d42370de.chunk.js.LICENSE.txt",
-    "static/media/MVCblog.5e210fe5.jpg": "/my-portfolio/static/media/MVCblog.5e210fe5.jpg",
-    "static/media/codenoob.b2eac7b1.jpg": "/my-portfolio/static/media/codenoob.b2eac7b1.jpg",
-    "static/media/css.374f873b.jpg": "/my-portfolio/static/media/css.374f873b.jpg",
-    "static/media/empDir.ec324345.jpg": "/my-portfolio/static/media/empDir.ec324345.jpg",
-    "static/media/fitness.285106ab.jpg": "/my-portfolio/static/media/fitness.285106ab.jpg",
-    "static/media/rockclimbing.73ff0287.jpg": "/my-portfolio/static/media/rockclimbing.73ff0287.jpg"
+    "main.686b1cd0.css.map": "/my-portfolio/static/css/main.686b1cd0.css.map",
+    "main.f0124582.js.map": "/my-portfolio/static/js/main.f0124582.js.map",
+    "787.e1cd1251.chunk.js.map": "/my-portfolio/static/js/787.e1cd1251.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ad5f9c6.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.d42370de.chunk.js",
-    "static/css/main.ccefb057.chunk.css",
-    "static/js/main.d9409665.chunk.js"
+    "static/css/main.686b1cd0.css",
+    "static/js/main.f0124582.js"
   ]
 }
