@@ -68,7 +68,7 @@ function classNames(...classes) {
 
 export default function CodeNoob() {
   return (
-    <div className="">
+    <div className="border-b border-white">
       <section aria-labelledby="features-heading" className="max-w-7xl mx-auto py-16 sm:px-2 lg:px-32">
         <div className="max-w-2xl mx-auto px-4 lg:px-0 lg:max-w-none">
           <div className="max-w-3xl">
