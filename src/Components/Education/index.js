@@ -37,18 +37,18 @@ export default function Education() {
                   </ul>
                 </p>
               </Link>
-              <div class="mt-6 flex items-center">
-                <div class="flex-shrink-0">
-                  <Link to="#mytrasncript">
+              <div class="mt-6 items-center w-3/6 m-auto ">
+                <div class="w-1/2 m-auto">
+                  <Link to="#mytrasncript" className="m-auto">
                     <span class="sr-only">Bachelor of psychological science</span>
-                    <img class="h-10 w-10 rounded-full" src="https://www.adelaide.edu.au/brand/sites/default/files/styles/ua_landscape/public/media/images/2021-09/uoalogonavybg.png?h=c4dd2c7b&itok=836Wuw_K" alt="adelaide university" />
+                    <img class="h-10 w-10 rounded-full m-auto" src="https://www.adelaide.edu.au/brand/sites/default/files/styles/ua_landscape/public/media/images/2021-09/uoalogonavybg.png?h=c4dd2c7b&itok=836Wuw_K" alt="adelaide university" />
                   </Link>
                 </div>
-                <div class="ml-3">
+                <div class="">
                   <p class="text-sm font-medium">
-                    <Link to="https://www.adelaide.edu.au/" arget="_blank" rel="noreferrer" > University of Adelaide </Link>
+                    <Link  to="https://www.adelaide.edu.au/" arget="_blank" rel="noreferrer" > University of Adelaide </Link>
                   </p>
-                  <div class="flex space-x-1 text-sm text-gray-100">
+                  <div class="space-x-1 text-sm text-gray-100">
                     <time datetime="2020-03-16"> Feb, 2019 </time>
                     <span aria-hidden="true"> &middot; </span>
                     <span> Nov, 2022 </span>
@@ -59,26 +59,26 @@ export default function Education() {
 
             <div>
               <div>
-                <Link to="#" class="inline-block">
+                <Link to="#." class="inline-block">
                   <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800"> Bootcamp </span>
                 </Link>
               </div>
-              <Link to="#" class="block mt-4">
+              <Link to="#." class="block mt-4">
                 <p class="text-xl text-pink-100">Full-Stack Web Development Certificate</p>
-                <p class="mt-3 text-base m-auto w-4/6">A deep introduction into coding through the lens of web development, develped skills to create applications from the backend server to the user interface</p>
+                <p class="mt-3 text-base m-auto w-5/6">A deep introduction into coding through the lens of web development, develped skills to create applications from the backend server to the user interface</p>
               </Link>
-              <div class="mt-6 flex items-center">
-                <div class="flex-shrink-0">
-                  <Link to="#">
-                    <span class="sr-only">Dessie Ryan</span>
-                    <img class="h-10 w-10 rounded-full" src="https://miro.medium.com/max/3150/1*ro9U4HRwF5xwEbDdryAQFw.png" alt="" />
+              <div class="mt-6 items-center w-4/6 m-auto">
+                <div class="w-1/2 m-auto">
+                  <Link to="#.">
+                    <span class="sr-only">Bootcamp</span>
+                    <img class="h-10 w-10 rounded-full m-auto" src="https://miro.medium.com/max/3150/1*ro9U4HRwF5xwEbDdryAQFw.png" alt="" />
                   </Link>
                 </div>
                 <div class="ml-3">
                   <p class="text-sm font-medium">
-                    <Link to="#"> Trilogy partnered with University of Adelaide </Link>
+                    <Link to="#."> Trilogy partnered with University of Adelaide </Link>
                   </p>
-                  <div class="flex space-x-1 text-sm text-gray-100">
+                  <div class="space-x-1 text-sm text-gray-100">
                     <time datetime="2020-03-10"> Nov, 2020 </time>
                     <span aria-hidden="true"> &middot; </span>
                     <span> July, 2021 </span>
