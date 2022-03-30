@@ -6,7 +6,7 @@ import WorkExperience from '../../Components/WorkExperience'
 
 export default function About() {
   return (
-    <div>
+    <div className="text-white background-primary">
       <AboutHero/>
       <Education/>
       <WorkExperience/>

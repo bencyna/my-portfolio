@@ -1,3 +1,7 @@
 .image_max {
     max-width: 80%;
 }
+
+.text-secondary {
+    color: "#228B22";
+  }

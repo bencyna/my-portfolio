@@ -8,27 +8,27 @@ export default function AboutHero() {
   <div className="mx-auto max-w-7xl w-full pt-16 pb-8 text-center lg:py-48 lg:text-left">
     <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
       <h1 className="text-xl tracking-tight font-serif text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-        <span className="inline text-green-300">Ben Cyna</span><span className="inline text-gray-500 text-sm ml-5">Software Engineer</span>
+        <span className="inline text-green-300">Ben Cyna</span><span className="inline text-gray-100 text-sm ml-5">Software Engineer</span>
       </h1>
-      <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md: max-w-3xl">Welcome to my website, click around to get to know me :)</p>
+      <p className="mt-3 max-w-md mx-auto text-lg text-gray-100 sm:text-xl md:mt-5 md: max-w-3xl">Welcome to my website, click around to get to know me :)</p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
           <Link to="#" onClick={() => {
           let hero = document.getElementById("education");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
-        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10"> Education </Link>
+        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-200 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10"> Education </Link>
         </div>
         <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
         <Link to="#" onClick={() => {
           let hero = document.getElementById("work");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
-        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Work Experience</Link>
+        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-200 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Work Experience</Link>
         </div>
         <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
         <Link to="#" onClick={() => {
           let hero = document.getElementById("me");
           hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
-        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-400 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Me</Link>
+        }} className="w-full flex items-center justify-center px-3 py-3 border border-transparent text-gray-200 text-base font-medium rounded-md hover:text-gray-600 md:py-4 md:text-lg md:px-10">Me</Link>
         </div>
       </div>
     </div>
