@@ -87,67 +87,67 @@ const [errors, setErrors] = useState({
   };
   return (
     <form onSubmit={onSubmit} className='h-full'>
-        <div className="shadow sm:rounded-md sm:overflow-hidden h-full background-secondary">
-            <div className="background-secondary py-6 px-4 space-y-6 sm:p-6 grid">
+        <div className="shadow sm:rounded-md sm:overflow-hidden h-full bg-white">
+            <div className="bg-white py-6 px-4 space-y-6 sm:p-6 grid">
                 <div>
-                    <h3 className="text-lg leading-6 font-medium text-white">Send me a message!</h3>
-                    <p className="mt-1 text-sm text-gray-100">I will reply as soon as I can :)</p>
+                    <h3 className="text-lg leading-6 font-medium text-primary">Send me a message!</h3>
+                    <p className="mt-1 text-sm text-primary">I will reply as soon as I can :)</p>
                 </div>
 
                 <div className="grid-cols-6 gap-6">
 
                     <div 
-                        className={errors.name ? "col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto border border-gray-300 rounded-md px-3 py-2 shadow-sm border-red-400" :"my-10 col-span-6 sm:col-span-4  w-2/3 m-auto border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-0 focus-within:ring-green-300 focus-within:border-green-300"}>
-                        <label htmlFor="name" className="block text-xs font-medium text-gray-300">Name</label>
+                        className={errors.name ? "col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto border border-primary rounded-md px-3 py-2 shadow-sm border-red-500" :"my-10 col-span-6 sm:col-span-4  w-2/3 m-auto border border-primary rounded-md px-3 py-2 shadow-sm focus-within:ring-0 focus-within:ring-green-300 focus-within:border-green-300"}>
+                        <label htmlFor="name" className="block text-xs font-medium text-primary">Name</label>
                         <input type="text"  
 
                         name="name"
                         value={formInfo.name}
                         onChange={handleFormChange} 
                         id="name" 
-                        className=" text-center block w-full border-0 p-0 text-gray-100 background-secondary placeholder-gray-300 focus:ring-0 sm:text-sm"
+                        className=" text-center block w-full border-0 p-0 text-gray-900 bg-white placeholder-gray-500 focus:ring-0 sm:text-sm"
                         placeholder="Jane Doe"/>
                          {errors.name && (
-                          <small className="text-red-400">
+                          <small className="text-red-500">
                             name cannot be blank
                           </small>
                         )}
                     </div>
 
-                    <div className={errors.email ? "col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-0 ring-red-400 border-red-400" : "my-10 col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-0 focus-within:ring-green-300 focus-within:border-green-300"}>
-                        <label htmlFor="email" className="block text-xs font-medium text-gray-300">Email Address</label>
+                    <div className={errors.email ? "col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto border border-primary rounded-md px-3 py-2 shadow-sm focus-within:ring-0 ring-red-500 border-red-500" : "my-10 col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto border border-primary rounded-md px-3 py-2 shadow-sm focus-within:ring-0 focus-within:ring-green-300 focus-within:border-green-300"}>
+                        <label htmlFor="email" className="block text-xs font-medium text-primary">Email Address</label>
                         <input type="email"
                         name="email"
                         value={formInfo.email}
                         onChange={handleFormChange} 
-                        className="border-none text-center block w-full background-secondary border-0 p-0 text-white placeholder-gray-300 focus:ring-0 sm:text-sm" 
+                        className="border-none text-center block w-full border-0 p-0 placeholder-gray-500 focus:ring-0 sm:text-sm" 
                         placeholder="example@example.com"/>
                          {errors.name && (
-                          <small className="text-red-400">
+                          <small className="text-red-500">
                             enter a valid email address
                           </small>
                         )}
                     </div>
 
 
-                    <div className={errors.message ? "col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto rounded-md px-3 py-2 shadow-sm ring-1 ring-red-400 focus-within:border-red-400" : " my-10 col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-green-300 focus-within:border-green-300"}>
+                    <div className={errors.message ? "col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto rounded-md px-3 py-2 shadow-sm ring-1 ring-red-500 focus-within:border-red-500" : " my-10 col-span-6 sm:col-span-4 mb-4 w-2/3 m-auto rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-green-300 focus-within:border-green-300"}>
                         <div className="flex items-start space-x-4">
                             <div className="min-w-0 flex-1">
-                                <div className={errors.message ? "border-b border-gray-200 focus-within:border-red-400" : "border-b border-gray-200 focus-within:border-green-300"}>
+                                <div className={errors.message ? "border-b border-primary focus-within:border-red-500" : "border-b border-primary focus-within:border-green-300"}>
                                     <label htmlFor="comment" className="sr-only">
-                                    Add your comment
+                                    Your message..
                                     </label>
                                     <textarea
                                     rows="3"
                                     name="message"
                                     value={formInfo.message}
                                     onChange={handleFormChange}
-                                    className={errors.message ? "block w-full border-0 border-b background-secondary border-transparent p-0 pb-2 resize-none focus:ring-0 border-red-400 focus:border-red-400 sm:text-sm placeholder-gray-300 text-white" : "text-white placeholder-gray-300 block background-secondary w-full border-0 border-b border-transparent p-0 pb-2 resize-none focus:ring-0 focus:border-green-300 sm:text-sm"}
-                                    placeholder="Add your comment..."
+                                    className={errors.message ? "block w-full border-0 border-b border-transparent p-0 pb-2 resize-none focus:ring-0 border-red-500 focus:border-red-500 sm:text-sm placeholder-gray-500" : "placeholder-gray-500 block w-full border-0 border-b border-transparent p-0 pb-2 resize-none focus:ring-0 focus:border-green-300 sm:text-sm"}
+                                    placeholder="your message..."
                                     />
                                 </div>
                                   {errors.message && (
-                                      <small className="text-red-400">
+                                      <small className="text-red-500">
                                         you cannot leave the message empty
                                       </small>
                                     )}
