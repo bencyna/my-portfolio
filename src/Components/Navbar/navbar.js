@@ -33,7 +33,7 @@ export default function Navbar() {
     <div className="container flex flex-wrap justify-between items-center mx-auto">
       <Link to="/" className="flex hover:text-green-300 font-wei">
         <img className="mr-3 h-20" src={Logo} alt="Ben Cyna Logo"></img>
-          <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Ben Cyna</span>
+          <span className="self-center text-lg font-semibold whitespace-nowrap text-primary hover:text-third">Ben Cyna</span>
       </Link>
       <button data-collapse-toggle="mobile-menu" onClick={toggleMobileMenu} type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
         <span className="sr-only">Open main menu</span>
@@ -43,13 +43,13 @@ export default function Navbar() {
       <div className={` ${hidden} w-full md:block md:w-auto`} id="mobile-menu">
         <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
           <li>
-            <Link to="/about" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</Link>
+            <Link to="/about" className="font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">About</Link>
+          </li>
+          <li className="justify-center place-self-center">
+            <button type='button' onClick={toggleContact} className="text-center cursor-pointer font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">Contact</button>
           </li>
           <li>
-            <button type='button' onClick={toggleContact} className="cursor-pointer block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</button>
-          </li>
-          <li>
-            <Link to="/" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-300 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</Link>
+            <Link to="/" className="font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">Projects</Link>
           </li>
         </ul>
       </div>

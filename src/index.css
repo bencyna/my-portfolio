@@ -34,3 +34,11 @@ code {
 .text-secondary {
   color: "#EADDCA";
 }
+
+.text-third {
+  color: #c5b08d;
+}
+
+.hover\:text-third:hover {
+  color: #c5b08d;
+}
