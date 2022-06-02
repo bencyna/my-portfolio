@@ -15,6 +15,7 @@ function App() {
         <Routes className="background-primary">
           <Route path="/my-portfolio/about" element={<About/>} />  
           <Route path="/about" element={<About/>} />  
+          <Route path="/my-portfolio/about" element={<About/>} />  
           <Route path="/" element={<Portfolio/>} />  
           <Route path="/my-portfolio" element={<Portfolio/>} />  
         </Routes>  
