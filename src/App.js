@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/navbar"
+import Contact from "./Pages/Contact/index"
 import About from "./Pages/About//index"
 import Portfolio from "./Pages/Portfolio/index"
 import "./index.css";
