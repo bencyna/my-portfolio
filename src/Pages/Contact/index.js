@@ -14,7 +14,7 @@ export default function Contact({contact_display, setContactDisplay}) {
         <div className="w-1/2 float-right background-third "> 
          <Minimize2 className="p-0 float-right mr-8 cursor-pointer text-white hover:p-1 ease-in-out duration-300" onClick={hideDisplay}/>
         </div>
-        <div className="w-1/2 text-white float background-third">Contact</div>
+        <div className="w-1/2 text-white float background-third">Contact</div> 
       </div>
       <ContactForm/>
     </div>
