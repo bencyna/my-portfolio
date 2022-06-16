@@ -1,0 +1,17 @@
+.contact_display {
+    z-index: 100;
+    height: 0%;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s linear;
+    }
+  
+  .contact_display.show  {
+    visibility: visible;
+    opacity: 1;
+    height: 70%;
+    transition: all .4s linear;
+    top: 30%;
+  }
+  

@@ -8,7 +8,7 @@ import { File } from 'react-feather';
 export default function Navbar() {
   const [mobile_menu, setMobileMenu] = useState(true);
   const [hidden, setHidden] = useState("hidden");
-  const [contact_display, setContactDisplay] = useState("hidden")
+  const [contact_display, setContactDisplay] = useState("")
 
   function toggleMobileMenu() {
     setMobileMenu(!mobile_menu)
@@ -21,11 +21,11 @@ export default function Navbar() {
   }
 
   function toggleContact() {
-    if (contact_display == "hidden") {
+    if (contact_display == "") {
       setContactDisplay("show")
     }
     else {
-      setContactDisplay("hidden")
+      setContactDisplay("")
     }
   }
 
