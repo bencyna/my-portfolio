@@ -77,6 +77,7 @@ const [errors, setErrors] = useState({
           },
           function (error) {
             console.log(error);
+            console.log("error here");
             alert(
               "Sorry, there was some sort of error, please try again or email me at: benjamincyn@gmail.com"
             );
