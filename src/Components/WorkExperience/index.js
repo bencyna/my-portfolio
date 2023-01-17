@@ -57,7 +57,7 @@ export default function WorkExperience() {
                 <p className="text-yellow-100">Founder</p>
               </div>
               <div className="">
-                <p className="">From launching the website to organising the artist and the writer. My co-founder and I began selling the products to customers on the 28th of Feburary 2021</p>
+                <p className="">From launching the website to organising the artist and the writer. My co-founder and I began selling the products to customers on the 28th of Feburary 2021. Although this enterprise was discontinued, we learnt valubale experiences from setting up the business from the ground up</p>
               </div>
 
               {/* <ul  className="flex space-x-5">
