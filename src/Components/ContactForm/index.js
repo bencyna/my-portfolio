@@ -123,7 +123,7 @@ const [errors, setErrors] = useState({
                         onChange={handleFormChange} 
                         className="border-none text-center block w-full border-0 p-0 placeholder-gray-500 focus:ring-0 sm:text-sm" 
                         placeholder="example@example.com"/>
-                         {errors.name && (
+                         {errors.email && (
                           <small className="text-red-500">
                             enter a valid email address
                           </small>
