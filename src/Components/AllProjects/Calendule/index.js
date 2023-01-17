@@ -7,7 +7,7 @@ const features1 = [
     name: 'Technologies',
     description:
       'This application MySql (so not quite mern), Express, React and Node.js to build this full stack application. Technologies such as sequelize, bcrypt, axios and materials-ui have so far been utilised to improve the experience with new technologies being introduced in time',
-    imageSrc: "https://www.mindinventory.com/blog/wp-content/uploads/2021/06/mern-stack.png",
+    imageSrc: calenduleLogin,
     imageAlt: 'Detail of zipper pull with tan leather and silver rivet.',
   },
   {
