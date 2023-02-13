@@ -50,7 +50,7 @@ export default function Navbar() {
               <button type='button' onClick={toggleContact} className="text-center cursor-pointer font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">Contact</button>
             </li>
             <li className="place-self-center">
-              <Link to="/" className="font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">Projects</Link>
+              <Link to="/projects" className="font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">Projects</Link>
             </li>
             <li className="place-self-center">
               <a href={resume} target="_blank" rel="noreferrer" className="font-normal block py-2 pr-4 pl-3 text-primary hover:text-third md:p-0">

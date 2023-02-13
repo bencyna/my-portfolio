@@ -13,9 +13,11 @@ function App() {
         <Navbar/>
         <Routes className="background-primary">
           <Route path="/my-portfolio/about" element={<About/>} />  
+          <Route path="/my-portfolio/projects" element={<Portfolio/>} />  
           <Route path="/about" element={<About/>} />  
-          <Route path="/" element={<Portfolio/>} />  
-          <Route path="/my-portfolio" element={<Portfolio/>} />  
+          <Route path="/projects" element={<Portfolio/>} />  
+          <Route path="/" element={<About/>} />  
+          <Route path="/my-portfolio" element={<About/>} />  
         </Routes>  
       </div>
     </Router>
