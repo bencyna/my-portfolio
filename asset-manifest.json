@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ff9fcf27.css",
-    "main.js": "/my-portfolio/static/js/main.55e8762b.js",
+    "main.css": "/my-portfolio/static/css/main.37e08212.css",
+    "main.js": "/my-portfolio/static/js/main.0333e797.js",
     "static/js/787.e1cd1251.chunk.js": "/my-portfolio/static/js/787.e1cd1251.chunk.js",
     "static/media/gemini.png": "/my-portfolio/static/media/gemini.21d237d678034b1d46bc.png",
     "static/media/codenoobHome.png": "/my-portfolio/static/media/codenoobHome.dbdb21a5496c66d2cecd.png",
@@ -10,17 +10,17 @@
     "static/media/mvc-tech.png": "/my-portfolio/static/media/mvc-tech.2ab65e991c41e1e4b9cb.png",
     "static/media/calenduleHome.png": "/my-portfolio/static/media/calenduleHome.b0483828c904ad74bfe1.png",
     "static/media/atariBreakout.png": "/my-portfolio/static/media/atariBreakout.83a724f0933d7c351558.png",
-    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.a5671cd9565938a59339.pdf",
+    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.d7083126a6720e27f1fc.pdf",
     "static/media/codenoobPost.png": "/my-portfolio/static/media/codenoobPost.9cdefe1bc3d21e4844cb.png",
     "static/media/b.png": "/my-portfolio/static/media/b.d77364d77572e7789d0e.png",
     "static/media/writingApp.png": "/my-portfolio/static/media/writingApp.37c3fa011c01c921c0e2.png",
     "index.html": "/my-portfolio/index.html",
-    "main.ff9fcf27.css.map": "/my-portfolio/static/css/main.ff9fcf27.css.map",
-    "main.55e8762b.js.map": "/my-portfolio/static/js/main.55e8762b.js.map",
+    "main.37e08212.css.map": "/my-portfolio/static/css/main.37e08212.css.map",
+    "main.0333e797.js.map": "/my-portfolio/static/js/main.0333e797.js.map",
     "787.e1cd1251.chunk.js.map": "/my-portfolio/static/js/787.e1cd1251.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9fcf27.css",
-    "static/js/main.55e8762b.js"
+    "static/css/main.37e08212.css",
+    "static/js/main.0333e797.js"
   ]
 }
