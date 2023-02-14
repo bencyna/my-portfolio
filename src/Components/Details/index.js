@@ -8,7 +8,7 @@ import "./style.css"
 
 function Details() {
   return (
-    <div className="p-8 lg:mx-96 rounded-md shadow text-white">
+    <div className="p-8 lg:mx-96 rounded-md shadow text-white bg-thirdary">
       <div className="w-full sm:flex sm:justify-center m-auto">
         <div className="w-1/3 md:inline-block m-auto">
           <address className="">
